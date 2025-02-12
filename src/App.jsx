@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const JobStories = () => {
+const App = () => {
  
   const [post, setpost] = useState([]);
   const [jobs, setJobs] = useState([]);
@@ -81,4 +81,4 @@ const JobStories = () => {
   );
 };
 
-export default JobStories;
+export default App;
